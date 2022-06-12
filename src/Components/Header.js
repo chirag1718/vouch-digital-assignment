@@ -5,14 +5,17 @@ const Header = () => (
   <div className="site-page-header-ghost-wrapper">
     <PageHeader
       ghost={false}
-      title="ATools"
-      subTitle="."
+      title="ATools."
       extra={[
-        <Button className="header-btn trial_btn" key={1}>Start Free Trial</Button>,
-        <Button className="header-btn login_btn" key={1}>Login</Button>
+        <Button className="header-btn trial_btn" key={1}>
+          Start Free Trial
+        </Button>,
+        <Button className="header-btn login_btn" key={1}>
+          Login
+        </Button>,
       ]}
     ></PageHeader>
   </div>
 );
 
-export default Header
+export default Header;
